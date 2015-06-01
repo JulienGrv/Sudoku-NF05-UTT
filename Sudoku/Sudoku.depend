@@ -1,0 +1,436 @@
+# depslib dependency file v1.0
+1357344923 source:f:\utt\nf05\mini-projet\sudoku\sudoku\main.c
+	"main.h"
+
+1325738640 f:\program files\codeblocks\mingw\include\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 f:\program files\codeblocks\mingw\include\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 f:\program files\codeblocks\mingw\include\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1326110988 f:\program files\codeblocks\mingw\include\sdl\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_dreamcast.h"
+	"SDL_config_macos.h"
+	"SDL_config_macosx.h"
+	"SDL_config_symbian.h"
+	"SDL_config_win32.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1325738640 f:\program files\codeblocks\mingw\include\sdl\sdl_platform.h
+
+1326110994 f:\program files\codeblocks\mingw\include\sdl\sdl_config_win32.h
+	"SDL_platform.h"
+
+1326111000 f:\program files\codeblocks\mingw\include\sdl\begin_code.h
+
+1325738640 f:\program files\codeblocks\mingw\include\sdl\close_code.h
+
+1325738640 f:\program files\codeblocks\mingw\include\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 f:\program files\codeblocks\mingw\include\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 f:\program files\codeblocks\mingw\include\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 f:\program files\codeblocks\mingw\include\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 f:\program files\codeblocks\mingw\include\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1325738640 f:\program files\codeblocks\mingw\include\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 f:\program files\codeblocks\mingw\include\sdl\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 f:\program files\codeblocks\mingw\include\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 f:\program files\codeblocks\mingw\include\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 f:\program files\codeblocks\mingw\include\sdl\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 f:\program files\codeblocks\mingw\include\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 f:\program files\codeblocks\mingw\include\sdl\sdl_keysym.h
+
+1325738640 f:\program files\codeblocks\mingw\include\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 f:\program files\codeblocks\mingw\include\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 f:\program files\codeblocks\mingw\include\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 f:\program files\codeblocks\mingw\include\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1325738640 f:\program files\codeblocks\mingw\include\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 f:\program files\codeblocks\mingw\include\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 f:\program files\codeblocks\mingw\include\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1354673047 f:\utt\nf05\mini-projet\sudoku\sudoku\sdl.h
+
+1357503028 f:\utt\nf05\mini-projet\sudoku\sudoku\fonctionssdl.h
+	<stdlib.h>
+	<stdio.h>
+	<SDL.h>
+	"main.h"
+
+1357507021 source:f:\utt\nf05\mini-projet\sudoku\sudoku\fonctionssdl.c
+	"fonctionsSDL.h"
+
+1357344659 f:\utt\nf05\mini-projet\sudoku\sudoku\main.h
+	<stdlib.h>
+	<stdio.h>
+	<SDL.h>
+	<stdbool.h>
+	"fonctionsSDL.h"
+	"ecrans.h"
+
+1355502368 f:\utt\nf05\mini-projet\sudoku\sudoku\solver.h
+
+1355502667 source:f:\utt\nf05\mini-projet\sudoku\sudoku\solver.c
+	<stdio.h>
+	<stdlib.h>
+	"solver.h"
+
+1357505095 f:\utt\nf05\mini-projet\sudoku\sudoku\gestionevenements.h
+	<stdlib.h>
+	<stdio.h>
+	<SDL.h>
+	"main.h"
+	"fonctionsSDL.h"
+	"..\Sudoku_Console\fonctionsDeBase.h"
+	"..\Sudoku_Console\resolveur.h"
+
+1357508025 source:f:\utt\nf05\mini-projet\sudoku\sudoku\gestionevenements.c
+	"gestionEvenements.h"
+
+1357508025 source:f:\utt\nf05\mini-projet\sudoku\sudoku\ecrans.c
+	"ecrans.h"
+
+1357508040 f:\utt\nf05\mini-projet\sudoku\sudoku\ecrans.h
+	<stdlib.h>
+	<stdio.h>
+	<SDL.h>
+	<stdbool.h>
+	"fonctionsSDL.h"
+	"gestionEvenements.h"
+	"..\Sudoku_Console\generateur.h"
+
+1357503779 source:f:\utt\nf05\mini-projet\sudoku\sudoku_console\backtracking.c
+	"backtracking.h"
+
+1357503779 f:\utt\nf05\mini-projet\sudoku\sudoku_console\backtracking.h
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
+1357504231 source:f:\utt\nf05\mini-projet\sudoku\sudoku_console\fonctionsdebase.c
+	"fonctionsDeBase.h"
+
+1357504231 f:\utt\nf05\mini-projet\sudoku\sudoku_console\fonctionsdebase.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1357509670 source:f:\utt\nf05\mini-projet\sudoku\sudoku_console\generateur.c
+	"generateur.h"
+
+1357504363 f:\utt\nf05\mini-projet\sudoku\sudoku_console\generateur.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"backtracking.h"
+	"resolveur.h"
+	"fonctionsDeBase.h"
+
+1357296924 f:\utt\nf05\mini-projet\sudoku\sudoku_console\resolveur.h
+	<stdio.h>
+	<stdlib.h>
+	"recherches.h"
+	"resolution.h"
+
+1356863261 f:\utt\nf05\mini-projet\sudoku\sudoku_console\recherches.h
+	<stdio.h>
+	<stdlib.h>
+	"suppression.h"
+
+1357137058 f:\utt\nf05\mini-projet\sudoku\sudoku_console\suppression.h
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"recherches.h"
+	"resolution.h"
+
+1356947080 f:\utt\nf05\mini-projet\sudoku\sudoku_console\resolution.h
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"tests.h"
+
+1357504363 f:\utt\nf05\mini-projet\sudoku\sudoku_console\tests.h
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"suppression.h"
+	"backtracking.h"
+	"fonctionsDeBase.h"
+
+1357127495 source:f:\utt\nf05\mini-projet\sudoku\sudoku_console\recherches.c
+	"recherches.h"
+
+1357302825 source:f:\utt\nf05\mini-projet\sudoku\sudoku_console\resolution.c
+	"resolution.h"
+
+1357296924 source:f:\utt\nf05\mini-projet\sudoku\sudoku_console\resolveur.c
+	"resolveur.h"
+
+1357136968 source:f:\utt\nf05\mini-projet\sudoku\sudoku_console\suppression.c
+	"suppression.h"
+
+1357504078 source:f:\utt\nf05\mini-projet\sudoku\sudoku_console\tests.c
+	"tests.h"
+
+1357511484 source:f:\utt\nf05\mini-projet\sudoku\projet_nf05_abgrall_grave\sudoku_console\backtracking.c
+	"backtracking.h"
+
+1357511484 f:\utt\nf05\mini-projet\sudoku\projet_nf05_abgrall_grave\sudoku_console\backtracking.h
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
+1357504231 source:f:\utt\nf05\mini-projet\sudoku\projet_nf05_abgrall_grave\sudoku_console\fonctionsdebase.c
+	"fonctionsDeBase.h"
+
+1357504231 f:\utt\nf05\mini-projet\sudoku\projet_nf05_abgrall_grave\sudoku_console\fonctionsdebase.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1357511898 source:f:\utt\nf05\mini-projet\sudoku\projet_nf05_abgrall_grave\sudoku_console\generateur.c
+	"generateur.h"
+
+1357504363 f:\utt\nf05\mini-projet\sudoku\projet_nf05_abgrall_grave\sudoku_console\generateur.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"backtracking.h"
+	"resolveur.h"
+	"fonctionsDeBase.h"
+
+1357296924 f:\utt\nf05\mini-projet\sudoku\projet_nf05_abgrall_grave\sudoku_console\resolveur.h
+	<stdio.h>
+	<stdlib.h>
+	"recherches.h"
+	"resolution.h"
+
+1356863261 f:\utt\nf05\mini-projet\sudoku\projet_nf05_abgrall_grave\sudoku_console\recherches.h
+	<stdio.h>
+	<stdlib.h>
+	"suppression.h"
+
+1357519779 f:\utt\nf05\mini-projet\sudoku\projet_nf05_abgrall_grave\sudoku_console\suppression.h
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"recherches.h"
+	"resolution.h"
+
+1356947080 f:\utt\nf05\mini-projet\sudoku\projet_nf05_abgrall_grave\sudoku_console\resolution.h
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"tests.h"
+
+1357504363 f:\utt\nf05\mini-projet\sudoku\projet_nf05_abgrall_grave\sudoku_console\tests.h
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"suppression.h"
+	"backtracking.h"
+	"fonctionsDeBase.h"
+
+1357127495 source:f:\utt\nf05\mini-projet\sudoku\projet_nf05_abgrall_grave\sudoku_console\recherches.c
+	"recherches.h"
+
+1357511992 source:f:\utt\nf05\mini-projet\sudoku\projet_nf05_abgrall_grave\sudoku_console\resolution.c
+	"resolution.h"
+
+1357511984 source:f:\utt\nf05\mini-projet\sudoku\projet_nf05_abgrall_grave\sudoku_console\resolveur.c
+	"resolveur.h"
+
+1357512081 source:f:\utt\nf05\mini-projet\sudoku\projet_nf05_abgrall_grave\sudoku_console\suppression.c
+	"suppression.h"
+
+1357512203 source:f:\utt\nf05\mini-projet\sudoku\projet_nf05_abgrall_grave\sudoku_console\tests.c
+	"tests.h"
+
+1357510313 source:f:\utt\nf05\mini-projet\sudoku\projet_nf05_abgrall_grave\sudoku\ecrans.c
+	"ecrans.h"
+
+1357508040 f:\utt\nf05\mini-projet\sudoku\projet_nf05_abgrall_grave\sudoku\ecrans.h
+	<stdlib.h>
+	<stdio.h>
+	<SDL.h>
+	<stdbool.h>
+	"fonctionsSDL.h"
+	"gestionEvenements.h"
+	"..\Sudoku_Console\generateur.h"
+
+1357503028 f:\utt\nf05\mini-projet\sudoku\projet_nf05_abgrall_grave\sudoku\fonctionssdl.h
+	<stdlib.h>
+	<stdio.h>
+	<SDL.h>
+	"main.h"
+
+1357344659 f:\utt\nf05\mini-projet\sudoku\projet_nf05_abgrall_grave\sudoku\main.h
+	<stdlib.h>
+	<stdio.h>
+	<SDL.h>
+	<stdbool.h>
+	"fonctionsSDL.h"
+	"ecrans.h"
+
+1357505095 f:\utt\nf05\mini-projet\sudoku\projet_nf05_abgrall_grave\sudoku\gestionevenements.h
+	<stdlib.h>
+	<stdio.h>
+	<SDL.h>
+	"main.h"
+	"fonctionsSDL.h"
+	"..\Sudoku_Console\fonctionsDeBase.h"
+	"..\Sudoku_Console\resolveur.h"
+
+1357510660 source:f:\utt\nf05\mini-projet\sudoku\projet_nf05_abgrall_grave\sudoku\fonctionssdl.c
+	"fonctionsSDL.h"
+
+1357518949 source:f:\utt\nf05\mini-projet\sudoku\projet_nf05_abgrall_grave\sudoku\gestionevenements.c
+	"gestionEvenements.h"
+
+1357344923 source:f:\utt\nf05\mini-projet\sudoku\projet_nf05_abgrall_grave\sudoku\main.c
+	"main.h"
+

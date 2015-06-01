@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Sudoku" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Sudoku_Console" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Sudoku_Console" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="backtracking.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="backtracking.h" />
+		<Unit filename="fonctionsDeBase.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="fonctionsDeBase.h" />
+		<Unit filename="generateur.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="generateur.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="main.h" />
+		<Unit filename="recherches.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="recherches.h" />
+		<Unit filename="resolution.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="resolution.h" />
+		<Unit filename="resolveur.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="resolveur.h" />
+		<Unit filename="suppression.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="suppression.h" />
+		<Unit filename="tests.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="tests.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,270 @@
+# depslib dependency file v1.0
+1356603578 source:f:\utt\nf05\mini-projet\sudoku\resolveur\fonctionsdebase.c
+	"fonctionsDeBase.h"
+
+1356603004 f:\utt\nf05\mini-projet\sudoku\resolveur\fonctionsdebase.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1357247405 source:f:\utt\nf05\mini-projet\sudoku\resolveur\main.c
+	"main.h"
+
+1356692309 f:\utt\nf05\mini-projet\sudoku\resolveur\procedures.h
+	<stdio.h>
+	<stdlib.h>
+	"tests.h"
+
+1357227453 f:\utt\nf05\mini-projet\sudoku\resolveur\tests.h
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"suppression.h"
+	"backtracking.h"
+
+1356692396 source:f:\utt\nf05\mini-projet\sudoku\resolveur\procedures.c
+	"procedures.h"
+
+1357227699 source:f:\utt\nf05\mini-projet\sudoku\resolveur\tests.c
+	"tests.h"
+
+1357247405 f:\utt\nf05\mini-projet\sudoku\resolveur\main.h
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"fonctionsDeBase.h"
+	"resolveur.h"
+	"generateur.h"
+
+1356863261 f:\utt\nf05\mini-projet\sudoku\resolveur\recherches.h
+	<stdio.h>
+	<stdlib.h>
+	"suppression.h"
+
+1356947080 f:\utt\nf05\mini-projet\sudoku\resolveur\resolution.h
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"tests.h"
+
+1357127495 source:f:\utt\nf05\mini-projet\sudoku\resolveur\recherches.c
+	"recherches.h"
+
+1357227624 source:f:\utt\nf05\mini-projet\sudoku\resolveur\resolution.c
+	"resolution.h"
+
+1357137058 f:\utt\nf05\mini-projet\sudoku\resolveur\suppression.h
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"recherches.h"
+	"resolution.h"
+
+1357136968 source:f:\utt\nf05\mini-projet\sudoku\resolveur\suppression.c
+	"suppression.h"
+
+1356908556 f:\utt\nf05\mini-projet\sudoku\resolveur\actualisation.h
+	<stdio.h>
+	<stdlib.h>
+	"resolution.h"
+	"recherches.h"
+
+1356909438 source:f:\utt\nf05\mini-projet\sudoku\resolveur\actualisation.c
+	"actualisation.h"
+
+1357245327 source:f:\utt\nf05\mini-projet\sudoku\resolveur\backtracking.c
+	"backtracking.h"
+
+1357245327 f:\utt\nf05\mini-projet\sudoku\resolveur\backtracking.h
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"main.h"
+
+1357247404 f:\utt\nf05\mini-projet\sudoku\resolveur\resolveur.h
+	<stdio.h>
+	<stdlib.h>
+	"recherches.h"
+	"resolution.h"
+
+1357247405 f:\utt\nf05\mini-projet\sudoku\resolveur\generateur.h
+	<stdio.h>
+	<stdlib.h>
+	"backtracking.h"
+
+1357247405 source:f:\utt\nf05\mini-projet\sudoku\resolveur\generateur.c
+	"generateur.h"
+
+1357247405 source:f:\utt\nf05\mini-projet\sudoku\resolveur\resolveur.c
+	"resolveur.h"
+
+1357503779 source:f:\utt\nf05\mini-projet\sudoku\sudoku_console\backtracking.c
+	"backtracking.h"
+
+1357503779 f:\utt\nf05\mini-projet\sudoku\sudoku_console\backtracking.h
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
+1357296924 f:\utt\nf05\mini-projet\sudoku\sudoku_console\main.h
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"fonctionsDeBase.h"
+	"resolveur.h"
+	"generateur.h"
+
+1357504231 f:\utt\nf05\mini-projet\sudoku\sudoku_console\fonctionsdebase.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1357296924 f:\utt\nf05\mini-projet\sudoku\sudoku_console\resolveur.h
+	<stdio.h>
+	<stdlib.h>
+	"recherches.h"
+	"resolution.h"
+
+1356863261 f:\utt\nf05\mini-projet\sudoku\sudoku_console\recherches.h
+	<stdio.h>
+	<stdlib.h>
+	"suppression.h"
+
+1357137058 f:\utt\nf05\mini-projet\sudoku\sudoku_console\suppression.h
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"recherches.h"
+	"resolution.h"
+
+1356947080 f:\utt\nf05\mini-projet\sudoku\sudoku_console\resolution.h
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"tests.h"
+
+1357504363 f:\utt\nf05\mini-projet\sudoku\sudoku_console\tests.h
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"suppression.h"
+	"backtracking.h"
+	"fonctionsDeBase.h"
+
+1357504363 f:\utt\nf05\mini-projet\sudoku\sudoku_console\generateur.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"backtracking.h"
+	"resolveur.h"
+	"fonctionsDeBase.h"
+
+1357504231 source:f:\utt\nf05\mini-projet\sudoku\sudoku_console\fonctionsdebase.c
+	"fonctionsDeBase.h"
+
+1357495427 source:f:\utt\nf05\mini-projet\sudoku\sudoku_console\generateur.c
+	"generateur.h"
+
+1357508936 source:f:\utt\nf05\mini-projet\sudoku\sudoku_console\main.c
+	"main.h"
+
+1357127495 source:f:\utt\nf05\mini-projet\sudoku\sudoku_console\recherches.c
+	"recherches.h"
+
+1357302825 source:f:\utt\nf05\mini-projet\sudoku\sudoku_console\resolution.c
+	"resolution.h"
+
+1357296924 source:f:\utt\nf05\mini-projet\sudoku\sudoku_console\resolveur.c
+	"resolveur.h"
+
+1357136968 source:f:\utt\nf05\mini-projet\sudoku\sudoku_console\suppression.c
+	"suppression.h"
+
+1357504078 source:f:\utt\nf05\mini-projet\sudoku\sudoku_console\tests.c
+	"tests.h"
+
+1357511484 source:f:\utt\nf05\mini-projet\sudoku\projet_nf05_abgrall_grave\sudoku_console\backtracking.c
+	"backtracking.h"
+
+1357511484 f:\utt\nf05\mini-projet\sudoku\projet_nf05_abgrall_grave\sudoku_console\backtracking.h
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
+1357504231 source:f:\utt\nf05\mini-projet\sudoku\projet_nf05_abgrall_grave\sudoku_console\fonctionsdebase.c
+	"fonctionsDeBase.h"
+
+1357504231 f:\utt\nf05\mini-projet\sudoku\projet_nf05_abgrall_grave\sudoku_console\fonctionsdebase.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1357511898 source:f:\utt\nf05\mini-projet\sudoku\projet_nf05_abgrall_grave\sudoku_console\generateur.c
+	"generateur.h"
+
+1357504363 f:\utt\nf05\mini-projet\sudoku\projet_nf05_abgrall_grave\sudoku_console\generateur.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"backtracking.h"
+	"resolveur.h"
+	"fonctionsDeBase.h"
+
+1357296924 f:\utt\nf05\mini-projet\sudoku\projet_nf05_abgrall_grave\sudoku_console\resolveur.h
+	<stdio.h>
+	<stdlib.h>
+	"recherches.h"
+	"resolution.h"
+
+1356863261 f:\utt\nf05\mini-projet\sudoku\projet_nf05_abgrall_grave\sudoku_console\recherches.h
+	<stdio.h>
+	<stdlib.h>
+	"suppression.h"
+
+1357520388 f:\utt\nf05\mini-projet\sudoku\projet_nf05_abgrall_grave\sudoku_console\suppression.h
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"recherches.h"
+	"resolution.h"
+
+1356947080 f:\utt\nf05\mini-projet\sudoku\projet_nf05_abgrall_grave\sudoku_console\resolution.h
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"tests.h"
+
+1357504363 f:\utt\nf05\mini-projet\sudoku\projet_nf05_abgrall_grave\sudoku_console\tests.h
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"suppression.h"
+	"backtracking.h"
+	"fonctionsDeBase.h"
+
+1357518295 source:f:\utt\nf05\mini-projet\sudoku\projet_nf05_abgrall_grave\sudoku_console\main.c
+	"main.h"
+
+1357296924 f:\utt\nf05\mini-projet\sudoku\projet_nf05_abgrall_grave\sudoku_console\main.h
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"fonctionsDeBase.h"
+	"resolveur.h"
+	"generateur.h"
+
+1357127495 source:f:\utt\nf05\mini-projet\sudoku\projet_nf05_abgrall_grave\sudoku_console\recherches.c
+	"recherches.h"
+
+1357511992 source:f:\utt\nf05\mini-projet\sudoku\projet_nf05_abgrall_grave\sudoku_console\resolution.c
+	"resolution.h"
+
+1357511984 source:f:\utt\nf05\mini-projet\sudoku\projet_nf05_abgrall_grave\sudoku_console\resolveur.c
+	"resolveur.h"
+
+1357520388 source:f:\utt\nf05\mini-projet\sudoku\projet_nf05_abgrall_grave\sudoku_console\suppression.c
+	"suppression.h"
+
+1357520404 source:f:\utt\nf05\mini-projet\sudoku\projet_nf05_abgrall_grave\sudoku_console\tests.c
+	"tests.h"
+

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Sudoku" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Sudoku" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Sudoku" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="$(#sdl.include)" />
+		</Compiler>
+		<Linker>
+			<Add library="mingw32" />
+			<Add library="SDLmain" />
+			<Add library="SDL.dll" />
+			<Add library="user32" />
+			<Add library="gdi32" />
+			<Add library="winmm" />
+			<Add library="dxguid" />
+			<Add directory="$(#sdl.lib)" />
+		</Linker>
+		<Unit filename="../Sudoku_Console/backtracking.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Sudoku_Console/backtracking.h" />
+		<Unit filename="../Sudoku_Console/fonctionsDeBase.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Sudoku_Console/fonctionsDeBase.h" />
+		<Unit filename="../Sudoku_Console/generateur.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Sudoku_Console/generateur.h" />
+		<Unit filename="../Sudoku_Console/recherches.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Sudoku_Console/recherches.h" />
+		<Unit filename="../Sudoku_Console/resolution.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Sudoku_Console/resolution.h" />
+		<Unit filename="../Sudoku_Console/resolveur.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Sudoku_Console/resolveur.h" />
+		<Unit filename="../Sudoku_Console/suppression.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Sudoku_Console/suppression.h" />
+		<Unit filename="../Sudoku_Console/tests.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Sudoku_Console/tests.h" />
+		<Unit filename="ecrans.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ecrans.h" />
+		<Unit filename="fonctionsSDL.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="fonctionsSDL.h" />
+		<Unit filename="gestionEvenements.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="gestionEvenements.h" />
+		<Unit filename="img/boyNovice.bmp" />
+		<Unit filename="img/boyNoviceRight.bmp" />
+		<Unit filename="img/chiffre1.bmp" />
+		<Unit filename="img/chiffre2.bmp" />
+		<Unit filename="img/chiffre3.bmp" />
+		<Unit filename="img/chiffre4.bmp" />
+		<Unit filename="img/chiffre5.bmp" />
+		<Unit filename="img/chiffre6.bmp" />
+		<Unit filename="img/chiffre7.bmp" />
+		<Unit filename="img/chiffre8.bmp" />
+		<Unit filename="img/chiffre9.bmp" />
+		<Unit filename="img/fondEcran1.bmp" />
+		<Unit filename="img/grilleVierge.bmp" />
+		<Unit filename="img/icone.bmp" />
+		<Unit filename="img/kafra.bmp" />
+		<Unit filename="img/kafraZoom.bmp" />
+		<Unit filename="img/lancerPartie.bmp" />
+		<Unit filename="img/novice.bmp" />
+		<Unit filename="img/resoudre.bmp" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="main.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
