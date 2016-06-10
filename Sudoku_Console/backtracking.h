@@ -5,14 +5,25 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
-bool absentSurLigne (int k, int grille[9][9][10], int i);
-bool absentSurColonne (int k, int grille[9][9][10], int j);
-bool absentSurBloc (int k, int grille[9][9][10], int i, int j);
-bool backtracking (int grille[9][9][10], int position);
+bool absentSurLigne(int k,
+                    int grille[9][9][10],
+                    int i);
+bool absentSurColonne(int k,
+                      int grille[9][9][10],
+                      int j);
+bool absentSurBloc(int k,
+                   int grille[9][9][10],
+                   int i,
+                   int j);
+bool backtracking(int grille[9][9][10],
+                  int position);
 
-// Aléatoire
-int* initSansDoublons(int a, int b);
-int chiffreAleatoire(int borneInf, int borneSup);
-void melangeur(int *tableau, int taille);
+// AlÃ©atoire
+int* initSansDoublons(int a,
+                      int b);
+int  chiffreAleatoire(int borneInf,
+                      int borneSup);
+void melangeur(int *tableau,
+               int  taille);
 
 #endif // BACKTRACKING_H_INCLUDED

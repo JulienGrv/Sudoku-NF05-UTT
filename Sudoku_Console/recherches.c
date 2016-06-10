@@ -1,112 +1,143 @@
 #include "recherches.h"
 
-/// Fonction qui retourne le nombre de cases à résoudre
+/// Fonction qui retourne le nombre de cases ï¿½ rï¿½soudre
 int nombreCasesRestantes(int grille[9][9][10])
 {
-    int ligne=0, colonne=0, compteurDeCases=0;
-    // On parcourt toute la grille pour rechercher le nombre de cases à résoudre
-    for(ligne=0; ligne<9; ligne++)
+  int ligne = 0, colonne = 0, compteurDeCases = 0;
+
+  // On parcourt toute la grille pour rechercher le nombre de cases ï¿½ rï¿½soudre
+  for (ligne = 0; ligne < 9; ligne++)
+  {
+    for (colonne = 0; colonne < 9; colonne++)
     {
-        for(colonne=0; colonne<9; colonne++)
-        {
-            if(grille[ligne][colonne][0]==0)
-            {
-                compteurDeCases++;
-            }
-        }
+      if (grille[ligne][colonne][0] == 0)
+      {
+        compteurDeCases++;
+      }
     }
-    return compteurDeCases;
+  }
+  return compteurDeCases;
 }
 
-/// Procédure qui permet de rechercher toutes les possibilités de toutes les cases de la grille de Sudoku
-void recherchePossibilitesGrille(int *compteurDeCases, int grille[9][9][10], int *niveau)
+/// Procï¿½dure qui permet de rechercher toutes les possibilitï¿½s de toutes les
+// cases de la grille de Sudoku
+void recherchePossibilitesGrille(int *compteurDeCases,
+                                 int  grille[9][9][10],
+                                 int *niveau)
 {
-    int ligne=0, colonne=0;
-    // On parcourt toute la grille pour rechercher les possibilités des cases
-    for(ligne=0; ligne<9; ligne++)
+  int ligne = 0, colonne = 0;
+
+  // On parcourt toute la grille pour rechercher les possibilitï¿½s des cases
+  for (ligne = 0; ligne < 9; ligne++)
+  {
+    for (colonne = 0; colonne < 9; colonne++)
     {
-        for(colonne=0; colonne<9; colonne++)
-        {
-            if(grille[ligne][colonne][0]==0)
-            {
-                // Si une case est à résoudre et n'a pas déjà des possibilités alors on recherche ses possibilités
-                recherchePossibilitesCase(ligne, colonne, grille);
-            }
-        }
+      if (grille[ligne][colonne][0] == 0)
+      {
+        // Si une case est ï¿½ rï¿½soudre et n'a pas dï¿½jï¿½ des possibilitï¿½s alors on
+        // recherche ses possibilitï¿½s
+        recherchePossibilitesCase(ligne, colonne, grille);
+      }
     }
+  }
 }
 
-/// Procédure de recherche des possibilités d'une case à résoudre
-void recherchePossibilitesCase(int ligneCase, int colonneCase, int grille[9][9][10])
+/// Procï¿½dure de recherche des possibilitï¿½s d'une case ï¿½ rï¿½soudre
+void recherchePossibilitesCase(int ligneCase,
+                               int colonneCase,
+                               int grille[9][9][10])
 {
-    int possibilite=1, curseur=0, ligne=0, colonne=0, profondeur=1;
-    // On réinitialise à zéro toutes les possibilités de la case à résoudre avant de rechercher à nouveau ses possibilités
-    reinitialisationProfondeur(grille[ligneCase][colonneCase]);
-    // On recherche pour toutes les valeurs de 1 à 9 celles qui sont des possibilités pour la case à résoudre
-    for(possibilite=1; possibilite<10; possibilite++)
+  int possibilite = 1, curseur = 0, ligne = 0, colonne = 0, profondeur = 1;
+
+  // On rï¿½initialise ï¿½ zï¿½ro toutes les possibilitï¿½s de la case ï¿½ rï¿½soudre avant
+  // de rechercher ï¿½ nouveau ses possibilitï¿½s
+  reinitialisationProfondeur(grille[ligneCase][colonneCase]);
+
+  // On recherche pour toutes les valeurs de 1 ï¿½ 9 celles qui sont des
+  // possibilitï¿½s pour la case ï¿½ rï¿½soudre
+  for (possibilite = 1; possibilite < 10; possibilite++)
+  {
+    curseur = 0;
+
+    // On regarde si la possibilitï¿½ n'est ni prï¿½sente sur la ligne ni sur la
+    // colonne de la case ï¿½ rï¿½soudre
+    while ((grille[ligneCase][curseur][0] != possibilite) &&
+           (grille[curseur][colonneCase][0] != possibilite) && (curseur < 9))
     {
-        curseur=0;
-        // On regarde si la possibilité n'est ni présente sur la ligne ni sur la colonne de la case à résoudre
-        while((grille[ligneCase][curseur][0]!=possibilite)&&(grille[curseur][colonneCase][0]!=possibilite)&&(curseur<9))
-        {
-            curseur++;
-        }
-        // Si la possibilité n'est ni présente sur la ligne ni sur la colonne de la case à résoudre alors on regarde au sein du bloc où elle se situe
-        if(curseur==9)
-        {
-            // On initialise les variables qui nous permettront de connaître la position de la case en haut à gauche du bloc où se situe la case à résoudre
-            int ligneBloc=ligneCase, colonneBloc=colonneCase;
-            // On recherche la première case en haut à gauche du bloc où se situe la case à résoudre
-            detectionBloc(&ligneBloc, &colonneBloc);
-            // On parcourt le bloc à partir de la première case en haut à gauche pour regarder si la possibilité est présente dans le bloc
-            ligne=ligneBloc;
-            colonne=colonneBloc;
-            while((grille[ligne][colonne][0]!=possibilite)&&(ligne!=ligneBloc+3))
-            {
-                colonne++;
-                if(colonne==colonneBloc+3)
-                {
-                    ligne++;
-                    colonne=colonneBloc;
-                }
-            }
-            if(ligne==ligneBloc+3)
-            {
-                // On place la possibilité dans la profondeur de la case à résoudre puis on incrémente la profondeur avant de passer à la prochaine possibilité
-                grille[ligneCase][colonneCase][profondeur]=possibilite;
-                profondeur++;
-            }
-        }
+      curseur++;
     }
+
+    // Si la possibilitï¿½ n'est ni prï¿½sente sur la ligne ni sur la colonne de la
+    // case ï¿½ rï¿½soudre alors on regarde au sein du bloc oï¿½ elle se situe
+    if (curseur == 9)
+    {
+      // On initialise les variables qui nous permettront de connaï¿½tre la
+      // position de la case en haut ï¿½ gauche du bloc oï¿½ se situe la case ï¿½
+      // rï¿½soudre
+      int ligneBloc = ligneCase, colonneBloc = colonneCase;
+
+      // On recherche la premiï¿½re case en haut ï¿½ gauche du bloc oï¿½ se situe la
+      // case ï¿½ rï¿½soudre
+      detectionBloc(&ligneBloc, &colonneBloc);
+
+      // On parcourt le bloc ï¿½ partir de la premiï¿½re case en haut ï¿½ gauche pour
+      // regarder si la possibilitï¿½ est prï¿½sente dans le bloc
+      ligne   = ligneBloc;
+      colonne = colonneBloc;
+
+      while ((grille[ligne][colonne][0] != possibilite) &&
+             (ligne != ligneBloc + 3))
+      {
+        colonne++;
+
+        if (colonne == colonneBloc + 3)
+        {
+          ligne++;
+          colonne = colonneBloc;
+        }
+      }
+
+      if (ligne == ligneBloc + 3)
+      {
+        // On place la possibilitï¿½ dans la profondeur de la case ï¿½ rï¿½soudre puis
+        // on incrï¿½mente la profondeur avant de passer ï¿½ la prochaine
+        // possibilitï¿½
+        grille[ligneCase][colonneCase][profondeur] = possibilite;
+        profondeur++;
+      }
+    }
+  }
 }
 
-/// Procédure permettant de se placer à la première case en haut à gauche du bloc où se situe la case envoyée
+/// Procï¿½dure permettant de se placer ï¿½ la premiï¿½re case en haut ï¿½ gauche du
+// bloc oï¿½ se situe la case envoyï¿½e
 void detectionBloc(int *ligneCase, int *colonneCase)
 {
-    // On recherche la ligne
-    if(*ligneCase<=2)
-    {
-        *ligneCase=0;
-    }
-    else if(*ligneCase>=6)
-    {
-        *ligneCase=6;
-    }
-    else
-    {
-        *ligneCase=3;
-    }
-    // On recherche la colonne
-    if(*colonneCase<=2)
-    {
-        *colonneCase=0;
-    }
-    else if(*colonneCase>=6)
-    {
-        *colonneCase=6;
-    }
-    else
-    {
-        *colonneCase=3;
-    }
+  // On recherche la ligne
+  if (*ligneCase <= 2)
+  {
+    *ligneCase = 0;
+  }
+  else if (*ligneCase >= 6)
+  {
+    *ligneCase = 6;
+  }
+  else
+  {
+    *ligneCase = 3;
+  }
+
+  // On recherche la colonne
+  if (*colonneCase <= 2)
+  {
+    *colonneCase = 0;
+  }
+  else if (*colonneCase >= 6)
+  {
+    *colonneCase = 6;
+  }
+  else
+  {
+    *colonneCase = 3;
+  }
 }

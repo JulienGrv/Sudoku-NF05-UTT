@@ -8,10 +8,16 @@
 #include "fonctionsSDL.h"
 #include "gestionEvenements.h"
 #include "..\Sudoku_Console\generateur.h"
-void ecranPrincipal(SDL_Surface *ecran, bool *finDuProgramme);
-void ecranJouer(SDL_Surface *ecran, bool *finDuProgramme, int niveau);
-void ecranResolveur(SDL_Surface *ecran, bool *finDuProgramme);
-void ecranChoixDifficulte(SDL_Surface *ecran, bool *finDuProgramme);
-void ecranPerdu(SDL_Surface *ecran, bool *finDuProgramme);
+void ecranPrincipal(SDL_Surface *ecran,
+                    bool        *finDuProgramme);
+void ecranJouer(SDL_Surface *ecran,
+                bool        *finDuProgramme,
+                int          niveau);
+void ecranResolveur(SDL_Surface *ecran,
+                    bool        *finDuProgramme);
+void ecranChoixDifficulte(SDL_Surface *ecran,
+                          bool        *finDuProgramme);
+void ecranPerdu(SDL_Surface *ecran,
+                bool        *finDuProgramme);
 
 #endif // ECRANS_H_INCLUDED

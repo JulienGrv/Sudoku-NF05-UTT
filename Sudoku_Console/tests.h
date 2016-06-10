@@ -7,23 +7,46 @@
 #include "suppression.h"
 #include "backtracking.h"
 #include "fonctionsDeBase.h"
-// Niveau très facile (1)
-void positionUnique(int ligneCase, int colonneCase, int grille[9][9][10], int *compteurDeCases, bool *stop); // singlePosition
+
+// Niveau trï¿½s facile (1)
+void positionUnique(int   ligneCase,
+                    int   colonneCase,
+                    int   grille[9][9][10],
+                    int  *compteurDeCases,
+                    bool *stop); // singlePosition
 // Niveau facile (2)
-void possibiliteUnique(int ligneCase, int colonneCase, int grille[9][9][10], int *compteurDeCases, bool *stop); // singleCandidate
+void possibiliteUnique(int   ligneCase,
+                       int   colonneCase,
+                       int   grille[9][9][10],
+                       int  *compteurDeCases,
+                       bool *stop); // singleCandidate
 // Niveau moyen (3)
-void possibiliteAlignee(int ligneCase, int colonneCase, int grille[9][9][10], bool *stop); // candidateLine
-void plusieursAlignees(int ligneCase, int colonneCase, int grille[9][9][10], bool *stop); // multipleLines
+void possibiliteAlignee(int   ligneCase,
+                        int   colonneCase,
+                        int   grille[9][9][10],
+                        bool *stop); // candidateLine
+void plusieursAlignees(int   ligneCase,
+                       int   colonneCase,
+                       int   grille[9][9][10],
+                       bool *stop); // multipleLines
 // Niveau difficile (4)
-void nakedTuple(int ligneCase, int colonneCase, int grille[9][9][10], bool *stop); // nakedTuple
-void hiddenTuple(int ligneCase, int colonneCase, int grille[9][9][10], bool *stop); // hiddenTuple
-// Niveau très difficile (5)
-    // X-Wing
-    // Swordfish
+void nakedTuple(int   ligneCase,
+                int   colonneCase,
+                int   grille[9][9][10],
+                bool *stop); // nakedTuple
+void hiddenTuple(int   ligneCase,
+                 int   colonneCase,
+                 int   grille[9][9][10],
+                 bool *stop); // hiddenTuple
+// Niveau trï¿½s difficile (5)
+// X-Wing
+// Swordfish
 // Expert (6)
-void forcingChains(int grille[9][9][10], int *compteurDeCases); // Forcing chains
+void forcingChains(int  grille[9][9][10],
+                   int *compteurDeCases); // Forcing chains
 // Autres
-bool presencePossibilite(int possibilitesCase[10], int possibilite);
-int compteurPossibilites(int possibilitesCase[10]);
+bool presencePossibilite(int possibilitesCase[10],
+                         int possibilite);
+int  compteurPossibilites(int possibilitesCase[10]);
 
 #endif // TESTS_H_INCLUDED
