@@ -9,4 +9,4 @@ This Sudoku grid solver and generator is programmed in C with a graphical user i
 
 *   **Julien Grave** - *Developer* - [JulienGrv](https://github.com/JulienGrv)
 
-See also the list of [contributors](https://github.com/Sudoku-NF05-UTT/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/JulienGrv/Sudoku-NF05-UTT/contributors) who participated in this project.
